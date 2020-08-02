@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText input;
+    TextView input;
     Button add;
     Button subtract;
     Button division;
@@ -38,11 +38,27 @@ public class MainActivity extends AppCompatActivity {
         input.append(button.getText().toString());
     }
     public void add(View v){
-     op1= Integer.parseInt(input.getText().toString());
-     input.setText("");
+        try {
+
+
+            if (input.getText().toString() != null) {
+                op1 = Integer.parseInt(input.getText().toString());
+                input.setText("");
+            }
+        }
+        catch (Exception e){
+            Toast.makeText(this, "Empty", Toast.LENGTH_SHORT).show();
+        }
     }
     public void equalTo(View v){
+        try{
+        if(input.getText().toString()!=null){
         int result= op1+Integer.parseInt(input.getText().toString());
         input.setText(""+result);
+        }
+    }
+        catch (Exception e){
+        Toast.makeText(this, "Empty", Toast.LENGTH_SHORT).show();
+    }
     }
 }
