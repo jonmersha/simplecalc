@@ -9,7 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginBottom="50dp"
-        android:textSize="30dp"
+        android:textSize="60dp"
+        android:inputType="numberDecimal"
+
+        android:layout_marginHorizontal="30sp"
+        android:background="@drawable/button_back_larger"
+android:padding="10dp"
+        android:textAlignment="textEnd"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:maxLength="10"
         />
     <Button
         android:id="@+id/one"
@@ -19,6 +28,7 @@
         android:layout_marginTop="10dp"
         android:text="1"
         android:textSize="30dp"
+        android:background="@drawable/button_back"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
         />
@@ -33,6 +43,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
 
         />
     <Button
@@ -46,6 +58,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
 
         />
     <Button
@@ -58,6 +72,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
 
         />
     <Button
@@ -71,6 +87,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
         />
 
     <Button
@@ -84,6 +102,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/seven"
@@ -95,6 +115,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/eght"
@@ -107,6 +129,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/nine"
@@ -119,6 +143,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/zero"
@@ -131,6 +157,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="inputNumbers"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/add"
@@ -143,6 +171,8 @@
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
         android:onClick="add"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/subb"
@@ -154,6 +184,8 @@
         android:text="-"
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/mult"
@@ -165,6 +197,8 @@
         android:text="X"
         android:textSize="30dp"
         android:layout_margin="@dimen/margin_all"
+        android:background="@drawable/button_back"
+
         />
     <Button
         android:id="@+id/div"
@@ -175,6 +209,8 @@
         android:layout_toRightOf="@id/nine"
         android:text="/"
         android:textSize="30dp"
+        android:background="@drawable/button_back"
+
         android:layout_margin="@dimen/margin_all"
         />
 
@@ -189,6 +225,8 @@
         android:layout_marginEnd="@dimen/margin_all"
         android:layout_marginRight="@dimen/margin_all"
         android:layout_marginBottom="@dimen/margin_all"
+        android:background="@drawable/button_back_larger"
+
         android:layout_toRightOf="@id/zero"
         android:text="="
         android:textSize="30dp"
